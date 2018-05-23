@@ -1,0 +1,53 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Crimson Text', serif;
+  line-height: 1.5;
+  color: white;
+}
+
+.name,
+ul {
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+ul {
+  list-style: none;
+}
+
+.name {
+  font-size: 1.5em;
+}
+.banner {
+  text-align: center;
+  font-size: 1.8em;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #C28A72;
+}
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.main-header {
+  background: #C28A72 url("header-image.jpg") no-repeat center/cover;
+  height: 350px;
+}
